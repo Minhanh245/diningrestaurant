@@ -1,0 +1,403 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dining Restaurant</title>
+<link rel="stylesheet" href="css/all.min.css">
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="css/owl.carousel.css">
+<link rel="stylesheet" href="css/owl.theme.default.css">
+<link rel="icon" href="images/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container"> <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt=""></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item"> <a class="nav-link active" aria-current="page" href="index.html">Trang chủ</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="khaivi.html">Khai vị</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="monchinh.html">Món chính</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="trangmieng.html">Tráng miệng</a> </li>
+        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Thức uống</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Cocktail</a></li>
+            <li><a class="dropdown-item" href="#">Rượu</a></li>
+            <li><a class="dropdown-item" href="#">Trà</a></li>
+            <li><a class="dropdown-item" href="#">Nước ngọt</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Liên hệ </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Facebook</a></li>
+            <li><a class="dropdown-item" href="#">Twitter</a></li>
+            <li><a class="dropdown-item" href="#">Website</a></li>
+            <li><a class="dropdown-item" href="#">Email</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"> <a class="nav-link" href="khampha.html">Khám phá</a> </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<main>
+  <section id="banner">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 mb-3">
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active"> <img src="images/left-banner-1.jpg" class="img-fluid" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>MÓN MỚI: Cơm tấm thịt nướng</h5>
+                  <p>Đặt bàn ngay trong khung giờ giảm giá để được hưởng ưu đãi.</p>
+                </div>
+              </div>
+              <div class="carousel-item"> <img src="images/left-banner-2.jpg" class="img-fluid" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>MÓN MỚI: Gà nướng</h5>
+                  <p>Đặt bàn ngay trong khung giờ giảm giá để được hưởng ưu đãi.</p>
+                </div>
+              </div>
+              <div class="carousel-item"> <img src="images/left-banner-3.jpg" class="img-fluid" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>MÓN MỚI: Cơm rang ngũ vị</h5>
+                  <p>Đặt bàn ngay trong khung giờ giảm giá để được hưởng ưu đãi.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="visually-hidden">Previous</span> </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="visually-hidden">Next</span> </button>
+          </div>
+        </div>
+        <div class="col-lg-6 mb-3">
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <div class="banner-r"> <img src="images/baner-right-image-01.jpg" class="img-fluid">
+                <div class="cover">
+                  <h4>Khai vị</h4>
+                  <p> Thưởng thức món mới của tuần này</p>
+                  <button type="button" class="btn btn-outline-danger">Đặt món</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mb-3">
+              <div class="banner-r"> <img src="images/baner-right-image-02.jpg" class="img-fluid">
+                <div class="cover">
+                  <h4>Món chính</h4>
+                  <p>Thưởng thức món mới của tuần này </p>
+                  <button type="button" class="btn btn-outline-danger">Đặt món</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <div class="banner-r"> <img src="images/baner-right-image-03.jpg" class="img-fluid">
+                <div class="cover">
+                  <h4>Tráng miệng</h4>
+                  <p>Thưởng thức món mới của tuần này </p>
+                  <button type="button" class="btn btn-outline-danger">Đặt món</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 mb-3">
+              <div class="banner-r"> <img src="images/baner-right-image-04.jpg" class="img-fluid">
+                <div class="cover">
+                  <h4>Thức uống</h4>
+                  <p>Thưởng thức món mới của tuần này </p>
+                  <button type="button" class="btn btn-outline-danger">Đặt món</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="men">
+    <div class="container">
+      <h1 class="text-dark">Khai vị</h1>
+      <p><i>Những món mới của tuần này (27/7-5/8)</i></p>
+      <div class="owl-carousel owl-theme" id="sp-men">
+        <div class="items">
+          <div class="hinh"> <img src="images/men-01.jpg">
+            <div class="icon"> <a href="#"><i class="fas fa-eye"></i></a> <a href="#"><i class="fas fa-star"></i></a> <a href="#"><i class="fas fa-shopping-cart"></i></a> </div>
+          </div>
+          <p class="d-flex justify-content-between text-dark"><b>Tôm sốt mật ong</b><span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span></p>
+          <p>75.000VNĐ</p>
+        </div>
+        <div class="items">
+          <div class="hinh"> <img src="images/men-02.jpg">
+            <div class="icon"> <a href="#"><i class="fas fa-eye"></i></a> <a href="#"><i class="fas fa-star"></i></a> <a href="#"><i class="fas fa-shopping-cart"></i></a> </div>
+          </div>
+          <p class="d-flex justify-content-between text-dark"><b>Sò điệp phủ kem</b><span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span></p>
+          <p>135.000VNĐ</p>
+        </div>
+        <div class="items">
+          <div class="hinh"> <img src="images/men-03.jpg">
+            <div class="icon"> <a href="#"><i class="fas fa-eye"></i></a> <a href="#"><i class="fas fa-star"></i></a> <a href="#"><i class="fas fa-shopping-cart"></i></a> </div>
+          </div>
+          <p class="d-flex justify-content-between text-dark"><b>Hàu sữa quả mọng</b><span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span></p>
+          <p>110.000VNĐ</p>
+        </div>
+        <div class="items">
+          <div class="hinh"> <img src="images/men-01.jpg">
+            <div class="icon"> <a href="#"><i class="fas fa-eye"></i></a> <a href="#"><i class="fas fa-star"></i></a> <a href="#"><i class="fas fa-shopping-cart"></i></a> </div>
+          </div>
+          <p class="d-flex justify-content-between text-dark"><b>Tôm sốt mật ong</b><span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span></p>
+          <p>75.000VNĐ</p>
+        </div>
+        <div class="items">
+          <div class="hinh"> <img src="images/men-02.jpg">
+            <div class="icon"> <a href="#"><i class="fas fa-eye"></i></a> <a href="#"><i class="fas fa-star"></i></a> <a href="#"><i class="fas fa-shopping-cart"></i></a> </div>
+          </div>
+          <p class="d-flex justify-content-between text-dark"><b>Sò điệp phủ kem</b><span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span></p>
+          <p>110.000VNĐ</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="women">
+    <div class="container">
+      <h1 class="text-dark">Món chính</h1>
+      <p><i>Những món mới của tuần này (27/7-5/8)</i></p>
+      <div class="owl-carousel owl-theme" id="sp-women">
+        <div class="items">
+          <div class="hinh"> <img src="images/women-01.jpg">
+            <div class="icon"> <a href="#"><i class="fas fa-eye"></i></a> <a href="#"><i class="fas fa-star"></i></a> <a href="#"><i class="fas fa-shopping-cart"></i></a> </div>
+          </div>
+          <p class="d-flex justify-content-between text-dark"><b>Gà nướng bơ</b><span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span></p>
+          <p>370.000VNĐ</p>
+        </div>
+        <div class="items">
+          <div class="hinh"> <img src="images/women-02.jpg">
+            <div class="icon"> <a href="#"><i class="fas fa-eye"></i></a> <a href="#"><i class="fas fa-star"></i></a> <a href="#"><i class="fas fa-shopping-cart"></i></a> </div>
+          </div>
+          <p class="d-flex justify-content-between text-dark"><b>Set bít tết</b><span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span></p>
+          <p>220.00VNĐ</p>
+        </div>
+        <div class="items">
+          <div class="hinh"> <img src="images/women-03.jpg">
+            <div class="icon"> <a href="#"><i class="fas fa-eye"></i></a> <a href="#"><i class="fas fa-star"></i></a> <a href="#"><i class="fas fa-shopping-cart"></i></a> </div>
+          </div>
+          <p class="d-flex justify-content-between text-dark"><b>Súp há cảo cay</b><span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span></p>
+          <p>180.000VNĐ</p>
+        </div>
+        <div class="items">
+          <div class="hinh"> <img src="images/women-01.jpg">
+            <div class="icon"> <a href="#"><i class="fas fa-eye"></i></a> <a href="#"><i class="fas fa-star"></i></a> <a href="#"><i class="fas fa-shopping-cart"></i></a> </div>
+          </div>
+          <p class="d-flex justify-content-between text-dark"><b>Gà nướng bơ</b><span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span></p>
+          <p>370.000VNĐ</p>
+        </div>
+        <div class="items">
+          <div class="hinh"> <img src="images/women-02.jpg">
+            <div class="icon"> <a href="#"><i class="fas fa-eye"></i></a> <a href="#"><i class="fas fa-star"></i></a> <a href="#"><i class="fas fa-shopping-cart"></i></a> </div>
+          </div>
+          <p class="d-flex justify-content-between text-dark"><b>Set bít tết</b><span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span></p>
+          <p>220.00VNĐ</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="kid">
+    <div class="container">
+      <h1 class="text-dark">Tráng miệng và Thức uống</h1>
+      <p><i>Những món mới của tuần này (27/7-5/8)</i></p>
+      <div class="owl-carousel owl-theme" id="sp-kid">
+        <div class="items">
+          <div class="hinh"> <img src="images/kid-01.jpg">
+            <div class="icon"> <a href="#"><i class="fas fa-eye"></i></a> <a href="#"><i class="fas fa-star"></i></a> <a href="#"><i class="fas fa-shopping-cart"></i></a> </div>
+          </div>
+          <p class="d-flex justify-content-between text-dark"><b>Bánh sốt anh đào</b><span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span></p>
+          <p>110.000VNĐ</p>
+        </div>
+        <div class="items">
+          <div class="hinh"> <img src="images/kid-02.jpg">
+            <div class="icon"> <a href="#"><i class="fas fa-eye"></i></a> <a href="#"><i class="fas fa-star"></i></a> <a href="#"><i class="fas fa-shopping-cart"></i></a> </div>
+          </div>
+          <p class="d-flex justify-content-between text-dark"><b>Kem vani dâu</b><span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span></p>
+          <p>80.000VNĐ</p>
+        </div>
+        <div class="items">
+          <div class="hinh"> <img src="images/kid-03.jpg">
+            <div class="icon"> <a href="#"><i class="fas fa-eye"></i></a> <a href="#"><i class="fas fa-star"></i></a> <a href="#"><i class="fas fa-shopping-cart"></i></a> </div>
+          </div>
+          <p class="d-flex justify-content-between text-dark"><b>Cocktail dâu mật ong</b><span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span></p>
+          <p>145.000VNĐ</p>
+        </div>
+        <div class="items">
+          <div class="hinh"> <img src="images/kid-01.jpg">
+            <div class="icon"> <a href="#"><i class="fas fa-eye"></i></a> <a href="#"><i class="fas fa-star"></i></a> <a href="#"><i class="fas fa-shopping-cart"></i></a> </div>
+          </div>
+          <p class="d-flex justify-content-between text-dark"><b>Bánh sốt anh đào</b><span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span></p>
+          <p>110.000VNĐ</p>
+        </div>
+        <div class="items">
+          <div class="hinh"> <img src="images/kid-02.jpg">
+            <div class="icon"> <a href="#"><i class="fas fa-eye"></i></a> <a href="#"><i class="fas fa-star"></i></a> <a href="#"><i class="fas fa-shopping-cart"></i></a> </div>
+          </div>
+          <p class="d-flex justify-content-between text-dark"><b>Kem vani dâu</b><span><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span></p>
+          <p>80.000VNĐ</p>
+        </div>
+      </div>
+    </div>
+  </section>
+<section id="product">
+    <div class="container py-4">
+      <div class="row d-flex align-items-center">
+        <div class="col-xl-6 mb-3">
+          <h1 class="text-dark">Nhà hàng DINING</h1>
+          <p>Chuỗi nhà hàng sang trọng và chất lượng. </p><br>
+
+          <p> Cùng khám phá không gian sang trọng với khung cảnh ngoài rời cực kỳ cuốn hút. Là địa điểm lý tưởng để thưởng thức một bữa tối sang trọng và yên tĩnh. Không gian sang trọng hệt như trong bộ phim Gatsby vĩ đại. Mỗi món ăn có một câu chuyện đằng sau đó. Với những người thích sống ảo, đây là một thế giới mà du khách có thể ở đó cả ngày chỉ để chụp.<br><br>
+
+Ẩm thực Pháp cao cấp ở DINING được thực khách mô tả là đầy tinh tế và sáng tạo, và tất nhiên là ấn tượng đến “giọt cuối cùng”. Với tài nghệ của đầu bếp dày kinh nghiệm của thế giới, thực đơn của chúng tôi kết hợp đặc sắc giữa các nguyên liệu của địa phương và thế giới. </p>
+          <p> Địa chỉ: <br>
+43R/12 Hồ Văn Huê, Tp. HCM.<br>
+128 Trần Phú, Tp. Nha Trang.</p>
+          <button type="button" class="btn btn-danger">Đặt bàn ngay</button>
+        </div>
+        <div class="col-xl-6 mb-3">
+          <div class="row">
+            <div class="col-lg-6 mb-3">
+              <div class="explore">
+                <h4 class="text-dark">Không gian sang trọng</h4>
+                <p><i>DINING</i></p>
+              </div>
+            </div>
+            <div class="col-lg-6 mb-3"> <img src="images/explore-image-01.jpg" alt="" class="img-fluid"> </div>
+            <div class="row">
+              <div class="col-lg-6 mb-3">
+				  <img src="images/explore-image-02.jpg" alt="" class="img-fluid">
+				
+				</div>
+				  <div class="col-lg-6 mb-3">
+              <div class="explore">
+                <h4 class="text-dark">Phục vụ tận tình</h4>
+                <p><i>DINING</i></p>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+	<section id="media">
+		<div class="container py-4">
+		<h1 class="text-dark">Đội ngũ nhà bếp</h1>
+			<p><i>Những đầu bếp hàng đầu từ khắp thế giới.
+				</i></p>
+		<div class="row">
+			<div class="col-2 p-0">
+			 <div class="sp">
+				<img src="images/instagram-01.jpg" alt=""class="img-fluid">
+				 <div class="hinh-cover">
+					 <p> Mary Elizabeth Smith </p>
+					 <a  href="#"><i class="fas fa-instagram-square"></i></a>
+				 </div>
+				</div>
+			</div>
+			    <div class="col-2 p-0">
+			 <div class="sp">
+				<img src="images/instagram-02.jpg" alt=""class="img-fluid">
+				 <div class="hinh-cover">
+					 <p>Hernández López </p>
+					 <a  href="#"><i class="fas fa-instagram-square"></i></a>
+				 </div>
+				</div>
+			</div>
+			   <div class="col-2 p-0">
+			 <div class="sp">
+				<img src="images/instagram-03.jpg" alt=""class="img-fluid">
+				 <div class="hinh-cover">
+					 <p>Lloyd Austin </p>
+					 <a  href="#"><i class="fas fa-instagram-square"></i></a>
+				 </div>
+				</div>
+			</div>
+			   <div class="col-2 p-0">
+			 <div class="sp">
+				<img src="images/instagram-04.jpg" alt=""class="img-fluid">
+				 <div class="hinh-cover">
+					 <p>Merrick Garland</p>
+					 <a  href="#"><i class="fas fa-instagram-square"></i></a>
+				 </div>
+				</div>
+			</div>
+			   <div class="col-2 p-0">
+			 <div class="sp">
+				<img src="images/instagram-05.jpg" alt=""class="img-fluid">
+				 <div class="hinh-cover">
+					 <p> Ming Lee </p>
+					 <a  href="#"><i class="fas fa-instagram-square"></i></a>
+				 </div>
+				</div>
+			</div>
+			   <div class="col-2 p-0">
+			 <div class="sp">
+				<img src="images/instagram-06.jpg" alt=""class="img-fluid">
+				 <div class="hinh-cover">
+					 <p>Marcia Fudge </p>
+					 <a  href="#"><i class="fas fa-instagram-square"></i></a>
+				 </div>
+				</div>
+			</div>
+			
+			</div>
+		</div>
+	</section>
+</main>
+<footer class="bg-dark text-light">
+  <div class="container">
+    <div class="row pt-4">
+      <div class="col-lg-3"> <a href="index.html"><img src="images/white-logo.png" alt=""></a>
+        <p class="pt-3">43R/12 Hồ Văn Huê, Tp. HCM.<br>
+128 Trần Phú, Tp. Nha Trang.</p>
+        <p>010-020-0340</p>
+      </div>
+      <div class="col-lg-3">
+        <h4> Tham khảo menu </h4>
+        <ul class="navbar-nav">
+          <li class="nav-item"><a href="men.html" class="nav-link">Set mùa xuân</a></li>
+          <li class="nav-item"><a href="women.html" class="nav-link">Set cặp đôi</a></li>
+          <li class="nav-item"><a href="kid.html" class="nav-link">Set đặc biệt</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3">
+        <h4>Liên hệ  </h4>
+        <ul class="navbar-nav">
+          <li class="nav-item"><a href="#" class="nav-link">Home page</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">About us</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Help</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3">
+        <h4>Thông tin về DINING </h4>
+        <ul class="navbar-nav">
+          <li class="nav-item"><a href="#" class="nav-link">Help</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">FAQ's</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Giao hàng</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Đặt bàn</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="js/jquery-3.6.0.min.js"></script> 
+<script src="js/owl.carousel.js"></script> 
+<script src="js/control.js"></script>
+</body>
+</html>
